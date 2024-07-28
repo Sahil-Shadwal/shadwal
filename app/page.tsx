@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Terrain from "../Components/background/background";
+import Hero from "@/Components/Hero";
 
 export default function Home() {
   return (
@@ -10,13 +11,13 @@ export default function Home() {
       </div>
 
       {/* Content Container */}
-      {/* <div className="relative p-10 z-10 ">
+      <div className="relative p-10 z-10 ">
         <div className="flex flex-col items-center justify-center px-5 sm:px overflow-hidden mx-auto">
           <div className="drop-shadow-4xl max-w-7xl w-full">
-            <h1 className="text-white"> Hello there!</h1>
+            <Hero />
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
